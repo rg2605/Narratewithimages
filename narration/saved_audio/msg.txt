@@ -1,0 +1,3 @@
+This directory is meant to store the audio files that were generated.
+These files are stored in .wav format with title as specified during the form submission on the web app.
+Playing them will narrate the text input by the user. 

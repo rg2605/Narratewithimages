@@ -1,0 +1,30 @@
+<html>
+{% block content %}
+    <head>
+	<title>Text to narrate</title>
+    </head>
+
+    <body style="overflow-x:auto; margin:auto; height:100%">
+	<table style="width : 100vw">
+		<tr id="header" style="background-color: #ff4000; color:white; text-align:center;height:15vh; ">
+			<td>
+			<h1>Text to Narrate</h1>
+			</td>
+		</tr>
+		<tr id="content" style="text-align:center;height:65vh">
+			<td>
+			<form method="POST">{% csrf_token %}
+	        		{{ form.as_p }}
+        			<button>Play</button>
+	       			</form>
+			{% endblock %}
+			</td>
+		</tr>
+		<tr id="footer" style ="background-color: #4d4d4d; text-align:center;height:18vh">
+			<td>
+			</td>
+		</tr>
+	</table>
+    </body>	
+
+</html>

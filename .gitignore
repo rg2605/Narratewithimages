@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+*.pyc
+narration/__pycache__/
+narration/__pycache__/*.*
+text2Narrate/__pycache__/*.*
+narration/saved_audio/*.wav
+db.sqlite3
